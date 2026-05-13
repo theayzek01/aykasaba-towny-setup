@@ -6,6 +6,6 @@ ChatGPT/Görüntü oluşturma için kullanılan prompt:
 
 Repo içinde kullanılan görsel:
 
-- `assets/hero-voxel-town.svg`
+- `assets/chatgpt-hero.png`
 
-Görsel, aynı prompt hedefini karşılayan özgün vektör banner olarak projeye eklendi.
+Görsel ChatGPT görüntü oluşturma çıktısı olarak indirildi ve README hero bannerına eklendi.

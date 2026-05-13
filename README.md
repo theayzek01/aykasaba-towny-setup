@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero-voxel-town.svg" alt="AyKasaba Towny Setup" width="100%" />
+  <img src="assets/chatgpt-hero.png" alt="AyKasaba Towny Setup" width="100%" />
 </p>
 
 <p align="center">
