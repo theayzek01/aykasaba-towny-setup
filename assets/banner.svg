@@ -1,0 +1,13 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="360" rx="28" fill="#0b1220"/>
+  <path d="M0 286C192 220 321 325 512 258C702 191 824 60 1280 112V360H0V286Z" fill="#14532d" opacity=".85"/>
+  <path d="M0 302C213 252 359 338 554 287C798 223 915 132 1280 170V360H0V302Z" fill="#22c55e" opacity=".35"/>
+  <circle cx="1100" cy="82" r="42" fill="#facc15"/>
+  <rect x="88" y="86" width="86" height="86" rx="12" fill="#7c3aed"/>
+  <rect x="112" y="110" width="38" height="38" rx="6" fill="#f8fafc"/>
+  <rect x="198" y="76" width="10" height="190" fill="#854d0e"/>
+  <path d="M208 82H350L324 122L350 162H208V82Z" fill="#f97316"/>
+  <text x="88" y="220" font-family="Segoe UI, Arial" font-size="64" font-weight="800" fill="#f8fafc">AyKasaba Towny Setup</text>
+  <text x="92" y="272" font-family="Segoe UI, Arial" font-size="30" fill="#bbf7d0">Tam Türkçe • Açık Kaynak • Paper Plugin + Survival Setup</text>
+  <text x="94" y="315" font-family="Segoe UI, Arial" font-size="20" fill="#cbd5e1">RTP · Kasalar · Görevler · Market · Seviye/XP · Resourcepack · Otomatik Kurulum</text>
+</svg>
