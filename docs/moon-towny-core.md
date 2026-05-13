@@ -7,9 +7,15 @@ Premium bağımlılıkları azaltmak için yazılmış ücretsiz Paper pluginidi
 - `/rtp` güvenli rastgele ışınlanma
 - `/kasalar` oy/kraliyet/sezon kasaları
 - `/gorevler` günlük görev GUI
-- `/market` ücretsiz başlangıç marketi
+- `/market` dengeli market
+- `/para` bakiye gösterir
+- `/isler` meslek seçme menüsü
+- `/setwarp <isim>` warp oluşturur
+- `/warp <isim>` warp noktasına gider
+- `/gunluk` günlük ödül verir
 - `/seviye` kalıcı XP/seviye gösterimi
 - `/moonadmin xp <miktar>` admin XP ekler
+- `/moonadmin money <miktar>` admin para ekler
 - `/moonadmin key <vote|royal|seasonal> <miktar>` admin anahtar ekler
 
 ## Kalıcı Veri
@@ -23,6 +29,10 @@ Oyuncu XP, anahtar ve görev ilerlemesi:
 - Görev sistemi
 - RTP sistemi
 - Basit market
+- Ekonomi
+- Jobs çekirdeği
+- Player warp çekirdeği
+- Günlük ödül
 - Seviye/XP sistemi
 
 Bu sayede GitHub paketinde korsan/premium jar gerekmeden çekirdek oynanış çalışır.

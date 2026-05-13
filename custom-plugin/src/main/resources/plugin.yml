@@ -1,15 +1,20 @@
 name: MoonTownyCore
-version: 1.1.0
+version: 1.2.0
 main: dev.mooncode.townycore.MoonTownyCore
 api-version: '1.21'
 author: MoonCode
 commands:
   menu: {description: Türkçe ana menüyü açar}
   seviye: {description: Oyuncu seviye durumunu gösterir}
+  para: {description: Bakiye gösterir}
+  isler: {description: İş seçme menüsü}
   rtp: {description: Güvenli rastgele ışınlanma}
   kasalar: {description: Ücretsiz kasa sistemi}
   gorevler: {description: Günlük görevler}
   market: {description: Basit Türkçe market}
+  setwarp: {description: Oyuncu warp noktası oluşturur}
+  warp: {description: Warp noktasına gider}
+  gunluk: {description: Günlük ödül alır}
   moonadmin: {description: Admin araçları, permission: moontowny.admin}
 permissions:
   moontowny.admin: {default: op}

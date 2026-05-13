@@ -24,7 +24,11 @@
 - 🧭 `/rtp` güvenli rastgele ışınlanma
 - 🎁 `/kasalar` ücretsiz kasa sistemi
 - 📘 `/gorevler` görev sistemi
-- 🛒 `/market` başlangıç marketi
+- 🛒 `/market` dengeli market
+- 💰 `/para` ekonomi bakiyesi
+- ⛏️ `/isler` jobs/meslek çekirdeği
+- 🌀 `/setwarp` ve `/warp` oyuncu warp çekirdeği
+- 🎉 `/gunluk` günlük ödül
 - ⭐ `/seviye` kalıcı XP/seviye sistemi
 - 🎨 Türkçe resourcepack şablonu
 - ⚙️ Windows otomatik kurulum scripti
@@ -79,6 +83,11 @@ runtime-server/start.bat
 | `/kasalar` | Oy/kraliyet/sezon kasaları |
 | `/gorevler` | Görev menüsü |
 | `/market` | Basit market |
+| `/para` | Bakiye gösterir |
+| `/isler` | Meslek seçme menüsü |
+| `/setwarp <isim>` | Warp oluşturur |
+| `/warp <isim>` | Warp noktasına gider |
+| `/gunluk` | Günlük ödül alır |
 | `/seviye` | XP ve seviye görüntüleme |
 | `/moonadmin xp <miktar>` | Admin XP ekleme |
 | `/moonadmin key <vote\|royal\|seasonal> <miktar>` | Admin anahtar ekleme |
@@ -113,6 +122,7 @@ Detay: [`docs/moon-towny-core.md`](docs/moon-towny-core.md)
 - [x] Türkçe setup temeli
 - [x] Özel Paper plugin
 - [x] RTP / kasa / görev / market / seviye
+- [x] Ekonomi / jobs / warp / günlük ödül çekirdeği
 - [x] Otomatik Windows kurulum
 - [x] GitHub Actions build
 - [ ] SQLite veri katmanı
@@ -127,6 +137,8 @@ Detay: [`docs/moon-towny-core.md`](docs/moon-towny-core.md)
 ## 📚 Dokümanlar
 
 - [`docs/status.md`](docs/status.md)
+- [`docs/checklist.md`](docs/checklist.md)
+- [`docs/deployment.md`](docs/deployment.md)
 - [`docs/plugins.md`](docs/plugins.md)
 - [`docs/resourcepack.md`](docs/resourcepack.md)
 - [`docs/operation.md`](docs/operation.md)

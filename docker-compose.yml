@@ -1,0 +1,9 @@
+services:
+  aykasaba:
+    build: .
+    container_name: aykasaba-towny
+    ports:
+      - "25565:25565"
+    volumes:
+      - ./runtime-server:/server
+    restart: unless-stopped
