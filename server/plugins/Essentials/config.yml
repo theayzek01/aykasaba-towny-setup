@@ -1,0 +1,24 @@
+locale: en
+starting-balance: 500
+currency-symbol: '$'
+max-money: 100000000
+min-money: 0
+
+god-on-disconnect: false
+teleport-cooldown: 5
+teleport-delay: 3
+heal-cooldown: 60
+repair-cooldown: 300
+
+spawn-on-join: false
+respawn-at-home: true
+
+kits:
+  starter:
+    delay: 86400
+    items:
+      - iron_sword 1
+      - iron_pickaxe 1
+      - bread 16
+      - torch 32
+      - oak_sapling 4

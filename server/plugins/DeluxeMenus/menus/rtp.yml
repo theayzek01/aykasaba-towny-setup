@@ -1,0 +1,28 @@
+menu_title: '&2&lRTP Worlds'
+open_command: rtp
+size: 36
+items:
+  wild:
+    material: GRASS_BLOCK
+    slot: 10
+    display_name: '&aWild World'
+    lore: ['&7Ana survival dünyası.', '&eÜcretsiz']
+    left_click_commands: ['[player] betterrtp world wild']
+  resource:
+    material: IRON_PICKAXE
+    slot: 12
+    display_name: '&6Resource World'
+    lore: ['&7Maden ve kaynak için.', '&e$250']
+    left_click_commands: ['[player] betterrtp world resource']
+  nether:
+    material: NETHERRACK
+    slot: 14
+    display_name: '&cNether'
+    lore: ['&7Tehlikeli kaynaklar.', '&e$500']
+    left_click_commands: ['[player] betterrtp world world_nether']
+  end:
+    material: END_STONE
+    slot: 16
+    display_name: '&dEnd'
+    lore: ['&7End şehirleri ve macera.', '&e$750']
+    left_click_commands: ['[player] betterrtp world world_the_end']

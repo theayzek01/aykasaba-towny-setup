@@ -1,0 +1,25 @@
+header-footer:
+  enabled: true
+  header:
+    - '&6&lTOWNY KINGDOMS'
+    - '&7Kasabanı kur, ekonomini büyüt, ulusunu yönet.'
+  footer:
+    - '&eWeb: &fexample.com &8| &eDiscord: &fdiscord.gg/example'
+    - '&7Online: &a%online%'
+
+tablist-name-formatting:
+  enabled: true
+  anti-override: true
+  disable-condition: '%vanished%=true'
+
+scoreboard:
+  enabled: true
+  title: '&6&lTowny'
+  lines:
+    - '&7&m----------------'
+    - '&eOyuncu: &f%player%'
+    - '&ePara: &a$%vault_eco_balance_formatted%'
+    - '&eKasaba: &f%townyadvanced_town%'
+    - '&eUlus: &f%townyadvanced_nation%'
+    - '&7&m----------------'
+    - '&fexample.com'

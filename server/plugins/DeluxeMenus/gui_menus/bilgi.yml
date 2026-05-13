@@ -1,0 +1,19 @@
+menu_title: '&8Sunucu Bilgisi'
+open_command: bilgi
+size: 27
+items:
+  towny:
+    material: OAK_SIGN
+    slot: 11
+    display_name: '&6Towny Komutları'
+    lore: ['&e/t new <isim> &7kasaba kurar', '&e/t claim &7chunk alır', '&e/n new <isim> &7ulus kurar']
+  ekonomi:
+    material: EMERALD
+    slot: 13
+    display_name: '&aEkonomi'
+    lore: ['&7Para: işler, görevler, market, oy ödülleri.']
+  kurallar:
+    material: PAPER
+    slot: 15
+    display_name: '&cKurallar'
+    lore: ['&7Hile, grief, hakaret ve exploit yasaktır.']

@@ -1,0 +1,23 @@
+categories:
+  tools:
+    icon: DIAMOND_PICKAXE
+    items:
+      haste_pickaxe: {cost: 600, command: 'give %player% diamond_pickaxe 1 efficiency:5 unbreaking:3'}
+      lumber_axe: {cost: 450, command: 'give %player% diamond_axe 1 efficiency:4'}
+  keys:
+    icon: TRIPWIRE_HOOK
+    items:
+      vote_key: {cost: 150, command: 'crate key give %player% vote 1'}
+      royal_key: {cost: 900, command: 'crate key give %player% royal 1'}
+  boosters:
+    icon: EXPERIENCE_BOTTLE
+    items:
+      jobs_boost_30m: {cost: 1200, command: 'lp user %player% permission settemp jobs.boost.2x true 30m'}
+  cosmetics:
+    icon: NAME_TAG
+    items:
+      gold_prefix: {cost: 2000, command: 'lp user %player% meta setprefix "&6Worker &8| &6"'}
+  resources:
+    icon: CHEST
+    items:
+      town_bundle: {cost: 800, command: 'give %player% oak_log 64;give %player% stone_bricks 64;give %player% lantern 16'}

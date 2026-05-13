@@ -1,0 +1,24 @@
+info:
+  namespace: towny_setup
+items:
+  vote_key:
+    display_name: '&aOy Anahtarı'
+    resource:
+      material: TRIPWIRE_HOOK
+      generate: false
+      model_path: item/vote_key
+      custom_model_data: 290001
+  royal_key:
+    display_name: '&6Kraliyet Anahtarı'
+    resource:
+      material: TRIPWIRE_HOOK
+      generate: false
+      model_path: item/royal_key
+      custom_model_data: 290002
+  seasonal_key:
+    display_name: '&dSezon Anahtarı'
+    resource:
+      material: TRIPWIRE_HOOK
+      generate: false
+      model_path: item/seasonal_key
+      custom_model_data: 290003

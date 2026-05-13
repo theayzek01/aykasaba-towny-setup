@@ -1,0 +1,28 @@
+crates:
+  vote:
+    name: '&aVote Kasası'
+    key: VOTE_KEY
+    rewards:
+      money_small: {chance: 30, commands: ['eco give %player_name% 500']}
+      food: {chance: 25, items: ['COOKED_BEEF 16']}
+      claim_blocks: {chance: 20, commands: ['townyadmin town %townyadvanced_town% givebonus 2']}
+      job_points: {chance: 15, commands: ['jobs points add %player_name% 25']}
+      diamond: {chance: 10, items: ['DIAMOND 2']}
+  royal:
+    name: '&6Kraliyet Kasası'
+    key: ROYAL_KEY
+    rewards:
+      money_big: {chance: 30, commands: ['eco give %player_name% 5000']}
+      emeralds: {chance: 25, items: ['EMERALD 16']}
+      town_bonus: {chance: 20, commands: ['townyadmin town %townyadvanced_town% givebonus 5']}
+      rare_pickaxe: {chance: 15, items: ['DIAMOND_PICKAXE 1 efficiency:4 unbreaking:3']}
+      level_xp: {chance: 10, commands: ['levelxp give %player_name% 1000']}
+  seasonal:
+    name: '&dSeasonal Kasası'
+    key: SEASONAL_KEY
+    rewards:
+      money_legend: {chance: 25, commands: ['eco give %player_name% 15000']}
+      netherite: {chance: 15, items: ['NETHERITE_INGOT 1']}
+      cosmetic_prefix: {chance: 10, commands: ['lp user %player_name% meta setprefix "&dSeasonal &8| &d"']}
+      dungeon_ticket: {chance: 25, items: ['PAPER 1 name:&dDungeon_Ticket']}
+      royal_keys: {chance: 25, commands: ['crate key give %player_name% royal 2']}

@@ -1,0 +1,12 @@
+use-mysql: false
+logging:
+  block-place: true
+  block-break: true
+  container-transactions: true
+  item-transactions: true
+  player-interactions: true
+  entity-kills: true
+  commands: true
+rollback:
+  max-radius: 100
+  max-time: 30d

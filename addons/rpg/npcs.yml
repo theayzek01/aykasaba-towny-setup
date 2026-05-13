@@ -1,0 +1,6 @@
+npcs:
+  mayor_elian: {name: '&6Mayor Elian', questline: grinvale_chapter_1}
+  blacksmith_roka: {name: '&7Roka the Smith', questline: forge_trials}
+  alchemist_mira: {name: '&dMira', questline: herb_secrets}
+  guard_captain: {name: '&cCaptain Voss', questline: bandit_threat}
+  cartographer: {name: '&bNolan', questline: lost_maps}

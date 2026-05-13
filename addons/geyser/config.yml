@@ -1,0 +1,13 @@
+geyser:
+  bedrock:
+    address: 0.0.0.0
+    port: 19132
+  remote:
+    address: auto
+    port: 25565
+    auth-type: floodgate
+floodgate:
+  username-prefix: '.'
+notes:
+  - 'Resourcepack Bedrock dönüşümü için ayrı paket gerekir.'
+  - 'Java özel font/iconları Bedrock tarafında sadeleştirilebilir.'

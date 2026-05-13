@@ -1,0 +1,31 @@
+worlds:
+  wild:
+    enabled: true
+    min-radius: 500
+    max-radius: 12000
+    cooldown: 300
+    price: 0
+  resource:
+    enabled: true
+    min-radius: 300
+    max-radius: 8000
+    cooldown: 600
+    price: 250
+  world_nether:
+    enabled: true
+    min-radius: 250
+    max-radius: 5000
+    cooldown: 900
+    price: 500
+  world_the_end:
+    enabled: true
+    min-radius: 500
+    max-radius: 7000
+    cooldown: 1200
+    price: 750
+safe-blocks:
+  - GRASS_BLOCK
+  - SAND
+  - STONE
+  - NETHERRACK
+  - END_STONE

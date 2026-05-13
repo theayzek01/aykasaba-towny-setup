@@ -1,0 +1,19 @@
+npcs:
+  guide:
+    name: '&eGuide'
+    skin: 'Steve'
+    location: 'world,2,72,2,180,0'
+    commands: ['menu']
+  rtp:
+    name: '&aRTP'
+    skin: 'Alex'
+    location: 'world,6,72,2,180,0'
+    commands: ['rtp']
+  jobs:
+    name: '&6Jobs Master'
+    location: 'world,-6,72,2,180,0'
+    commands: ['jobsmenu']
+  crates:
+    name: '&dCrates'
+    location: 'world,10,72,2,180,0'
+    commands: ['warp crates']

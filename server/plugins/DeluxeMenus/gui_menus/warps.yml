@@ -1,0 +1,24 @@
+menu_title: '&8Işınlanma Menüsü'
+open_command: warpsmenu
+size: 36
+items:
+  spawn:
+    material: BEACON
+    slot: 10
+    display_name: '&6Spawn'
+    left_click_commands: ['[player] spawn']
+  crates:
+    material: CHEST
+    slot: 12
+    display_name: '&dKasalar'
+    left_click_commands: ['[player] warp kasalar']
+  wild:
+    material: GRASS_BLOCK
+    slot: 14
+    display_name: '&aVahşi Doğa'
+    left_click_commands: ['[player] rtp']
+  market:
+    material: GOLD_INGOT
+    slot: 16
+    display_name: '&ePazar'
+    left_click_commands: ['[player] warp pazar']

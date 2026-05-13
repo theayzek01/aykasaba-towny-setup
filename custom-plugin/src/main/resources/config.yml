@@ -1,0 +1,11 @@
+server-name: "AyKasaba"
+level-xp-per-minute: 2
+vote-xp: 40
+quest-xp: 75
+levels:
+  max: 30
+  base-required-xp: 250
+  multiplier: 1.28
+messages:
+  prefix: "&6AyKasaba &8» &f"
+  welcome: "&aSunucuya hoş geldin! &7/menu ile başlayabilirsin."

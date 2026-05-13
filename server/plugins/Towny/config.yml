@@ -1,0 +1,37 @@
+version: original-towny-template
+language: english
+
+new_world_settings:
+  using_towny: true
+  pvp: true
+  force_pvp: false
+  friendly_fire: false
+  explosion: false
+  fire: false
+  mobs: true
+
+economy:
+  daily_taxes: true
+  price_new_town: 2500.0
+  price_new_nation: 25000.0
+  price_outpost: 10000.0
+  upkeep:
+    town_upkeep_base: 100.0
+    nation_upkeep_base: 500.0
+    upkeep_death_price: 0.0
+
+town:
+  max_residents_per_town: 0
+  max_town_blocks: 64
+  town_block_ratio: 8
+  mayor_plot_bonus: 16
+  default_public: true
+  default_open: false
+
+plots:
+  default_plot_price: 250.0
+  max_plot_price_cost: 100000.0
+  plot_tax: 5.0
+
+war:
+  enabled: false

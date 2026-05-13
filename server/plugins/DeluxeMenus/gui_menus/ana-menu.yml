@@ -1,0 +1,22 @@
+menu_title: '&8Kasaba Ana Menüsü'
+open_command: menu
+size: 45
+items:
+  bilgi:
+    material: BOOK
+    slot: 20
+    display_name: '&eBilgi'
+    lore: ['&7Kurallar, komutlar ve başlangıç rehberi.']
+    left_click_commands: ['[openguimenu] bilgi']
+  warps:
+    material: ENDER_PEARL
+    slot: 22
+    display_name: '&bIşınlanmalar'
+    lore: ['&7Spawn, market, kasalar ve vahşi doğa.']
+    left_click_commands: ['[openguimenu] warps']
+  market:
+    material: EMERALD
+    slot: 24
+    display_name: '&aMarket'
+    lore: ['&7Sunucu marketini aç.']
+    left_click_commands: ['[player] shop']

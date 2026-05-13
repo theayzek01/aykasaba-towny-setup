@@ -1,0 +1,18 @@
+vote-sites:
+  site1:
+    service-site: ExampleVote1
+    vote-url: https://example.com/vote1
+  site2:
+    service-site: ExampleVote2
+    vote-url: https://example.com/vote2
+rewards:
+  commands:
+    - 'eco give %player% 300'
+    - 'crate key give %player% vote 1'
+    - 'levelxp give %player% 150'
+vote-party:
+  enabled: true
+  votes-required: 50
+  commands:
+    - 'crate key giveall royal 1'
+    - 'broadcast &6Vote Party! &fHerkese Royal Key verildi.'

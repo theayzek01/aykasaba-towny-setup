@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": { "layer0": "minecraft:item/tripwire_hook" },
+  "overrides": [
+    { "predicate": { "custom_model_data": 290001 }, "model": "minecraft:item/vote_key" },
+    { "predicate": { "custom_model_data": 290002 }, "model": "minecraft:item/royal_key" },
+    { "predicate": { "custom_model_data": 290003 }, "model": "minecraft:item/seasonal_key" }
+  ]
+}

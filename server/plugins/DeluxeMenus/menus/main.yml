@@ -1,0 +1,40 @@
+menu_title: '&6&lTowny Kingdoms'
+open_command:
+  - menu
+  - ana
+size: 45
+items:
+  profile:
+    material: PLAYER_HEAD
+    slot: 4
+    display_name: '&eProfilin'
+    lore:
+      - '&7Para: &a$%vault_eco_balance_formatted%'
+      - '&7Kasaba: &f%townyadvanced_town%'
+      - '&7Ulus: &f%townyadvanced_nation%'
+  town:
+    material: OAK_DOOR
+    slot: 20
+    display_name: '&aKasaba Komutları'
+    lore:
+      - '&7Kasaba kur, arsa al, sakin yönet.'
+    left_click_commands:
+      - '[player] towny'
+  shop:
+    material: EMERALD
+    slot: 22
+    display_name: '&6Market'
+    left_click_commands:
+      - '[player] shop'
+  warps:
+    material: COMPASS
+    slot: 24
+    display_name: '&bWarplar'
+    left_click_commands:
+      - '[player] warps'
+  close:
+    material: BARRIER
+    slot: 40
+    display_name: '&cKapat'
+    left_click_commands:
+      - '[close]'

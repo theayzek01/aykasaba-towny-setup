@@ -1,0 +1,17 @@
+holograms:
+  welcome:
+    location: 'world,0,75,0'
+    lines:
+      - '&6&lTowny Kingdoms'
+      - '&f/menu &7ile ana menüyü aç'
+      - '&f/rtp &7ile dünyaya ışınlan'
+  crates:
+    location: 'world,15,72,5'
+    lines:
+      - '&eKasalar'
+      - '&7Vote, Royal ve Seasonal ödüller'
+  jobs:
+    location: 'world,-12,72,8'
+    lines:
+      - '&aJobs'
+      - '&7Çalış, seviye atla, pointshop kullan'

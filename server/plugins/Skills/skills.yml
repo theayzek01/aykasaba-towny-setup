@@ -1,0 +1,7 @@
+skills:
+  mining: {max-level: 50, xp-source: break_ores, perks: ['+fortune_chance', '+haste_seconds']}
+  farming: {max-level: 50, xp-source: harvest_crops, perks: ['+double_crop_chance', '+sell_bonus']}
+  combat: {max-level: 50, xp-source: kill_mobs, perks: ['+crit_chance', '+lifesteal_small']}
+  fishing: {max-level: 50, xp-source: fishing, perks: ['+treasure_chance', '+rare_fish']}
+  building: {max-level: 50, xp-source: place_blocks, perks: ['+cosmetic_blocks', '+town_bonus']}
+formula: '100 + level * level * 35'

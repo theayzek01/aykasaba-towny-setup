@@ -1,0 +1,11 @@
+menu_title: '&6&lJobs'
+open_command: jobsmenu
+size: 45
+items:
+  miner: {material: IRON_PICKAXE, slot: 10, display_name: '&7Miner', left_click_commands: ['[player] jobs join Miner']}
+  woodcutter: {material: DIAMOND_AXE, slot: 11, display_name: '&2Woodcutter', left_click_commands: ['[player] jobs join Woodcutter']}
+  farmer: {material: WHEAT, slot: 12, display_name: '&eFarmer', left_click_commands: ['[player] jobs join Farmer']}
+  hunter: {material: BOW, slot: 13, display_name: '&cHunter', left_click_commands: ['[player] jobs join Hunter']}
+  fisher: {material: FISHING_ROD, slot: 14, display_name: '&bFisher', left_click_commands: ['[player] jobs join Fisher']}
+  builder: {material: BRICKS, slot: 15, display_name: '&6Builder', left_click_commands: ['[player] jobs join Builder']}
+  pointshop: {material: EMERALD, slot: 31, display_name: '&aPointshop', left_click_commands: ['[player] jobspointshop']}

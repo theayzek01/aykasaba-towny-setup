@@ -1,0 +1,30 @@
+levels:
+  1: {xp: 0, reward: 'eco give %player% 250'}
+  2: {xp: 500, reward: 'crate key give %player% vote 1'}
+  3: {xp: 1200, reward: 'eco give %player% 750'}
+  4: {xp: 2200, reward: 'lp user %player% permission set essentials.sethome.multiple.2'}
+  5: {xp: 3500, reward: 'townyadmin town %townyadvanced_town% givebonus 2'}
+  6: {xp: 5200, reward: 'eco give %player% 1500'}
+  7: {xp: 7400, reward: 'crate key give %player% vote 2'}
+  8: {xp: 10000, reward: 'lp user %player% permission set playerwarps.limit.1'}
+  9: {xp: 13500, reward: 'eco give %player% 2500'}
+  10: {xp: 18000, reward: 'crate key give %player% royal 1'}
+  11: {xp: 24000, reward: 'lp user %player% parent add merchant'}
+  12: {xp: 31500, reward: 'eco give %player% 4000'}
+  13: {xp: 40500, reward: 'jobs points add %player% 100'}
+  14: {xp: 51000, reward: 'crate key give %player% vote 4'}
+  15: {xp: 63000, reward: 'townyadmin town %townyadvanced_town% givebonus 5'}
+  16: {xp: 77000, reward: 'eco give %player% 6500'}
+  17: {xp: 93000, reward: 'jobs points add %player% 250'}
+  18: {xp: 112000, reward: 'crate key give %player% royal 2'}
+  19: {xp: 135000, reward: 'lp user %player% parent add noble'}
+  20: {xp: 162000, reward: 'eco give %player% 10000'}
+  21: {xp: 195000, reward: 'playerpoints give %player% 250'}
+  22: {xp: 235000, reward: 'crate key give %player% seasonal 1'}
+  23: {xp: 285000, reward: 'townyadmin town %townyadvanced_town% givebonus 10'}
+  24: {xp: 350000, reward: 'lp user %player% parent add king'}
+sources:
+  playtime_per_10min: 20
+  vote: 150
+  quest_complete: 250
+  job_levelup: 100

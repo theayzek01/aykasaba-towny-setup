@@ -1,0 +1,49 @@
+shops:
+  blocks:
+    name: '&8Blok Marketi'
+    size: 54
+    items:
+      stone:
+        material: STONE
+        buy: 4
+        sell: 1
+      oak_log:
+        material: OAK_LOG
+        buy: 12
+        sell: 3
+      glass:
+        material: GLASS
+        buy: 8
+        sell: 2
+  farming:
+    name: '&8Tarım Marketi'
+    size: 54
+    items:
+      wheat:
+        material: WHEAT
+        buy: 10
+        sell: 3
+      carrot:
+        material: CARROT
+        buy: 8
+        sell: 2
+      potato:
+        material: POTATO
+        buy: 8
+        sell: 2
+  ores:
+    name: '&8Maden Marketi'
+    size: 54
+    items:
+      coal:
+        material: COAL
+        buy: 16
+        sell: 5
+      iron_ingot:
+        material: IRON_INGOT
+        buy: 64
+        sell: 20
+      diamond:
+        material: DIAMOND
+        buy: 750
+        sell: 250

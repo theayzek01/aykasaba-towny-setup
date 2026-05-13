@@ -1,0 +1,45 @@
+jobs:
+  Miner:
+    max-level: 100
+    income-multiplier-per-level: 0.015
+    actions:
+      break:
+        STONE: {money: 0.08, points: 0.02, xp: 1}
+        COAL_ORE: {money: 0.35, points: 0.05, xp: 3}
+        IRON_ORE: {money: 0.75, points: 0.08, xp: 5}
+        DIAMOND_ORE: {money: 4.0, points: 0.25, xp: 20}
+  Woodcutter:
+    max-level: 100
+    actions:
+      break:
+        OAK_LOG: {money: 0.20, points: 0.03, xp: 2}
+        SPRUCE_LOG: {money: 0.20, points: 0.03, xp: 2}
+  Farmer:
+    max-level: 100
+    actions:
+      break:
+        WHEAT: {money: 0.18, points: 0.02, xp: 2}
+        CARROTS: {money: 0.16, points: 0.02, xp: 2}
+        POTATOES: {money: 0.16, points: 0.02, xp: 2}
+      breed:
+        COW: {money: 1.0, points: 0.10, xp: 5}
+  Hunter:
+    max-level: 100
+    actions:
+      kill:
+        ZOMBIE: {money: 1.5, points: 0.05, xp: 4}
+        SKELETON: {money: 1.7, points: 0.06, xp: 5}
+        ENDERMAN: {money: 5.0, points: 0.20, xp: 18}
+  Fisher:
+    max-level: 100
+    actions:
+      fish:
+        COD: {money: 0.7, points: 0.04, xp: 4}
+        SALMON: {money: 0.8, points: 0.04, xp: 4}
+        TREASURE: {money: 8.0, points: 0.40, xp: 30}
+  Builder:
+    max-level: 100
+    actions:
+      place:
+        STONE_BRICKS: {money: 0.05, points: 0.01, xp: 1}
+        OAK_PLANKS: {money: 0.04, points: 0.01, xp: 1}

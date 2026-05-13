@@ -1,0 +1,9 @@
+dungeons:
+  moss_crypt: {level: 5, cooldown: 12h, boss: moss_keeper, reward_key: vote}
+  ember_mines: {level: 10, cooldown: 18h, boss: ember_golem, reward_key: royal}
+  frost_keep: {level: 15, cooldown: 24h, boss: frost_knight, reward_key: royal}
+  sunken_library: {level: 18, cooldown: 24h, boss: drowned_scholar, reward_key: seasonal}
+  bandit_den: {level: 8, cooldown: 12h, boss: bandit_lord, reward_key: vote}
+  spider_catacombs: {level: 12, cooldown: 18h, boss: brood_mother, reward_key: royal}
+  ender_observatory: {level: 22, cooldown: 36h, boss: void_seer, reward_key: seasonal}
+  royal_ruins: {level: 24, cooldown: 48h, boss: fallen_king, reward_key: seasonal}

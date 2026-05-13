@@ -1,0 +1,14 @@
+limits:
+  default: 0
+  citizen: 1
+  merchant: 3
+  noble: 5
+costs:
+  create: 5000
+  rename: 500
+  icon: 250
+categories:
+  - shops
+  - farms
+  - towns
+  - attractions

@@ -1,0 +1,25 @@
+mobs:
+  moss_keeper:
+    type: ZOMBIE
+    display: '&2Moss Keeper'
+    health: 350
+    damage: 9
+    skills: ['poison_cloud', 'root_pull']
+  ember_golem:
+    type: IRON_GOLEM
+    display: '&cEmber Golem'
+    health: 600
+    damage: 14
+    skills: ['fire_slam', 'lava_ring']
+  frost_knight:
+    type: SKELETON
+    display: '&bFrost Knight'
+    health: 500
+    damage: 12
+    skills: ['ice_prison', 'slow_aura']
+  fallen_king:
+    type: WITHER_SKELETON
+    display: '&5Fallen King'
+    health: 1200
+    damage: 18
+    skills: ['summon_guards', 'dark_nova']

@@ -1,0 +1,9 @@
+check_updates: false
+debug: LOW
+menu_metas:
+  1:
+    file: gui_menus/ana-menu.yml
+  2:
+    file: gui_menus/warps.yml
+  3:
+    file: gui_menus/bilgi.yml

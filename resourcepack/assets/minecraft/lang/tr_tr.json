@@ -1,0 +1,9 @@
+{
+  "item.towny_setup.vote_key": "Oy Anahtarı",
+  "item.towny_setup.royal_key": "Kraliyet Anahtarı",
+  "item.towny_setup.seasonal_key": "Sezon Anahtarı",
+  "gui.towny_setup.main": "Ana Menü",
+  "gui.towny_setup.warps": "Işınlanma Noktaları",
+  "gui.towny_setup.shop": "Market",
+  "message.towny_setup.welcome": "Kasabalar diyarına hoş geldin!"
+}

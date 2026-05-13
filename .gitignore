@@ -1,0 +1,11 @@
+*.jar
+*.zip
+target/
+.tools/
+runtime-server/
+logs/
+world*/
+cache/
+.DS_Store
+.vscode/
+.idea/

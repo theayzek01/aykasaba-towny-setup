@@ -1,0 +1,30 @@
+quests:
+  first-town:
+    name: '&aİlk Kasaban'
+    ask-message: '&7Bir kasaba kur ve vatandaşlığını başlat.'
+    finish-message: '&aKasaba hayatına hoş geldin!'
+    requirements: {}
+    stages:
+      ordered:
+        '1':
+          commands-to-run:
+            - 'town new %player%Town'
+    rewards:
+      money: 1000
+      commands:
+        - 'lp user %player% parent add citizen'
+  miner-path:
+    name: '&6Madenci Yolu'
+    ask-message: '&7500 taş kır.'
+    finish-message: '&eMadencilik ödülün verildi.'
+    stages:
+      ordered:
+        '1':
+          break-block-names:
+            - STONE
+          break-block-amounts:
+            - 500
+    rewards:
+      money: 2500
+      items:
+        - 'IRON_PICKAXE 1'

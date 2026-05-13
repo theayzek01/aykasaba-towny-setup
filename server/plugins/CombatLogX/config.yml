@@ -1,0 +1,10 @@
+tag-duration: 20
+blocked-commands:
+  - spawn
+  - home
+  - tpa
+  - rtp
+  - town spawn
+punishments:
+  quit-command: 'kill %player%'
+  broadcast: '&c%player% savaşta çıktığı için cezalandırıldı.'
